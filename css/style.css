@@ -18,6 +18,7 @@ body {
     background-color: #f7f7f7;
     font-family: 'Open Sans', Arial, sans-serif; 
     position: relative;
+    z-index: 1; 
 }
 
 .container {
@@ -60,14 +61,17 @@ body {
 }
 
 .letter {
+    height: 100vh;
+    width: 35%; 
+    margin: 0 auto;
 }
 
-.letter li {
+.letter-text li {
     list-style-type: none; 
     margin-left: 12%; 
 }
 
-.letter li:before {
+.letter-text li:before {
     content: ">"; 
     margin-right: 10px; 
 }
@@ -82,4 +86,26 @@ h3 {
     border-bottom: 0.5px solid #303030;
     display:inline-block; 
 
+}
+
+.fa {
+    font-size: 100px;
+    color: #e0e0e0;
+}
+
+
+.slick-arrow.slick-hidden {
+	display: none;
+}
+
+.slick-prev{
+	position: absolute;
+    top: 30%;
+    left: 15%; 
+}
+
+.slick-next{
+	position: absolute;
+    top: 30%;
+    right: 15%; 
 }

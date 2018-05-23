@@ -1,1 +1,0 @@
-nunjucks.render('test.html', {title: 'hello my old friend'});
