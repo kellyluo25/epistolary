@@ -31,11 +31,22 @@ body {
 }
 
 .header {
-    background-color: #ffd4dd; 
     height: 250px; 
     width: 35%; 
     padding: 0 50px; 
     margin: 0 auto;
+}
+
+.header-00 {
+    background-color: #ffd4dd; 
+}
+
+.header-01 {
+    background-color: #6dc7ff; 
+}
+
+.header-02 {
+    background-color: #ffe299;
 }
 
 /* text */
@@ -45,10 +56,21 @@ body {
     letter-spacing: 10px; 
     font-size: 100px; 
     z-index: 2;  
-    color: #2c8098; 
     position: relative;
     top: 135px;
     text-align: right; 
+}
+
+.across-00 {
+    color: #2c8098; 
+}
+
+.across-01 {
+    color: #6d4577; 
+}
+
+.across-02 {
+    color: #32ad9c;
 }
 
 .subtitle { 
@@ -98,14 +120,19 @@ h3 {
 	display: none;
 }
 
+.slick-prev, .slick-next {
+    cursor: pointer;
+    z-index: 3; 
+}
+
 .slick-prev{
 	position: absolute;
-    top: 30%;
+    top: 35%;
     left: 15%; 
 }
 
 .slick-next{
 	position: absolute;
-    top: 30%;
+    top: 35%;
     right: 15%; 
 }
